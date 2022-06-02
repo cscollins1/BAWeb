@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header-logo {
+    display: inline-block;
+}
+
+#header-menu {
+    display: inline-block;
+}
+#header-menu ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#header-menu li{
+    display: inline;
+    padding: 5px;
+}
