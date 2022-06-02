@@ -2,6 +2,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+#header {
+    background-color: #005E7C;
+}
 #header-logo {
     display: inline-block;
 }
