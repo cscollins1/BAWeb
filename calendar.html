@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <title>Bridge Academy Website</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/calendar.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/header.css"/>
 </head>
 
 <body>
     <div id="header">
         <div id="header-logo">
-            <h1>Bridge Academy</h1>
-            <h4>Psalm 32:8</h4>
+            <div class="container">
+                <h1>Bridge Academy</h1>
+                <h4>Psalm 32:8</h4>
+            </div>
         </div>
-        <div id="'header-menu">
+        <div id="header-menu">
             <ul id="menu">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
@@ -22,14 +25,17 @@
                 <li><a href="./register.html">Register</a></li>
             </ul>
         </div>
+    </div>
         <div id="calendar-banner">
             <h2>Calendar</h2>
         </div>
         <div id="calendar-display">
             <p>Use the link below to go to the 2022-2023 Calendar page or the button at the bottom of the page to print the 2022-2023 Calendar.</p>
             <!--I'd like to get the actual calendar display here to view, but still have a link to a printable PDF or something similar-->
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.123calendars.com%2Fimages%2F2022-calendar%2FYearly-2022-Calendar.jpg&f=1&nofb=1">
+            <img src="./images/calendar-sample.jpg" style="width: 100%;">
             <!--Either make the picture of the calendar be a link or just keep the button beneath. Think it would be cleaner to get rid of the button-->
+            <!--This will open the calendar in a new window. all we eould need to do is change the link (href) to whatever the actual calendar link is-->
+            <button><a diownload href="./images/calendar-sample.jpg" target="_blank">View Calendar</a></button>
         </div>
-    </div>
+    
 </body>
