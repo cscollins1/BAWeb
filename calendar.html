@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <title>Bridge Academy Website</title>
-    <link rel="stylesheet" type="text/css" href="./styles/calendar.css"/>
     <link rel="stylesheet" type="text/css" href="./styles/header.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/calendar.css"/>
+    
 </head>
 
 <body>
@@ -26,16 +27,73 @@
             </ul>
         </div>
     </div>
-        <div id="calendar-banner">
-            <h2>Calendar</h2>
+
+    <div id="calendar">
+        <div id="calendar-header">
+            <h2>June</h2>
         </div>
-        <div id="calendar-display">
-            <p>Use the link below to go to the 2022-2023 Calendar page or the button at the bottom of the page to print the 2022-2023 Calendar.</p>
-            <!--I'd like to get the actual calendar display here to view, but still have a link to a printable PDF or something similar-->
-            <img src="./images/calendar-sample.jpg" style="width: 100%;">
-            <!--Either make the picture of the calendar be a link or just keep the button beneath. Think it would be cleaner to get rid of the button-->
-            <!--This will open the calendar in a new window. all we eould need to do is change the link (href) to whatever the actual calendar link is-->
-            <button><a diownload href="./images/calendar-sample.jpg" target="_blank">View Calendar</a></button>
+        <div id="calendar-body">
+            <table>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <td><div class="cal-day"></div></td>
+                    <td><div class="cal-day"></div></td>
+                    <td><div class="cal-day">1</div></td>
+                    <td><div class="cal-day">2</div></td>
+                    <td><div class="cal-day">3</div></td>
+                    <td><div class="cal-day">4</div></td>
+                    <td><div class="cal-day">5</div></td>
+                    
+                </tr>
+                <tr>
+                    <td><div class="cal-day">6</div></td>
+                    <td><div class="cal-day">7</div></td>
+                    <td><div class="cal-day">8</div></td>
+                    <td><div class="cal-day-active">9</div></td>
+                    <td><div class="cal-day">10</div></td>
+                    <td><div class="cal-day">11</div></td>
+                    <td><div class="cal-day">12</div></td>
+                    
+                </tr>
+                <tr>
+                    <td><div class="cal-day">13</div></td>
+                    <td><div class="cal-day">14</div></td>
+                    <td><div class="cal-day">15</div></td>
+                    <td><div class="cal-day">16</div></td>
+                    <td><div class="cal-day">17</div></td>
+                    <td><div class="cal-day">18</div></td>
+                    <td><div class="cal-day">19</div></td>
+                    
+                </tr>
+                <tr>
+                    <td><div class="cal-day">20</div></td>
+                    <td><div class="cal-day">21</div></td>
+                    <td><div class="cal-day">22</div></td>
+                    <td><div class="cal-day">23</div></td>
+                    <td><div class="cal-day">24</div></td>
+                    <td><div class="cal-day">25</div></td>
+                    <td><div class="cal-day">26</div></td>
+                    
+                </tr>
+                <tr>
+                    <td><div class="cal-day">27</div></td>
+                    <td><div class="cal-day">28</div></td>
+                    <td><div class="cal-day">29</div></td>
+                    <td><div class="cal-day">30</div></td>
+                    <td><div class="cal-day"></div></td>
+                    <td><div class="cal-day"></div></td>
+                    <td><div class="cal-day"></div></td>
+                </tr>
+            </table>
         </div>
+    </div>
     
 </body>
