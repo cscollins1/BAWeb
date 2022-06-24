@@ -73,6 +73,7 @@ function createMenuItem(name){
     return li;
 }
 const resultsList = document.getElementById("results");
-resultsList.appendChild(createMenuItem("Test"))
-resultsList.appendChild(createMenuItem("Test 2"))
-console.log(classResults)
+function test(){
+    resultsList.appendChild(createMenuItem("Test"));
+    resultsList.appendChild(createMenuItem("Test 2"));
+}
