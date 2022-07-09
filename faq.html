@@ -157,5 +157,11 @@
     <footer>
         <p style="text-align: center;">Contact Bridge Academy at <a href="mailto: bridgeacademy@comcast.net">bridgeacademy@comcast.net</a></p>
     </footer>
-    <script src="./scripts/faq.js"></script>
+    <script type="text/javascript">
+        $(document).ready(() => {
+            $('.question').on('click', event => {
+                $(event.currentTarget).next().toggle();
+            });
+        })
+    </script>
 </body>
