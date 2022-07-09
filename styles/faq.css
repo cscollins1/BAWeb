@@ -10,3 +10,27 @@ body {
 .answer {
     display: none;
 }
+ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+h3 {
+    vertical-align: middle;
+}
+.question-header {
+    width:fit-content;
+}
+
+.question {
+    display: inline-block;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+#NOI {
+    margin: 10px;
+}
