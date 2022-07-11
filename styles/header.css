@@ -34,8 +34,11 @@
     width: fit-content;
     display: inline;
     margin: 10px;
+    vertical-align: middle;
 }
-
+#menu li {
+    vertical-align: middle;
+}
 #jumbotron {
     width: 100%;
     margin: 20px;
