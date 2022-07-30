@@ -6,7 +6,7 @@
 <ol>
 <li> <p>Online Registration</p> </li>
 <li> <p>Interactive Calendar</p></li>
-<li> <p>User Accounts</p></li>
+<li> <p>User Accounts (Can't do with GithubPages)</p></li>
 </ol>
 
 
