@@ -6,3 +6,33 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.mapouter{
+    position:relative;
+    text-align:right;
+    height: auto;
+    width:fit-content;
+    display: inline-block;
+    vertical-align: top;
+}
+.gmap_canvas {
+    display: inline-block;
+}
+.location div {
+    width: 40%;
+    display: inline-block;
+}
+.location-description {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+.location-description p, .location-description h2, .location-description a{
+    width: 75%;
+    margin: 5px;
+}
+#church-pic {
+    height: 250px;
+    width: fit-content;
+    vertical-align:top;
+    display: inline;
+}
