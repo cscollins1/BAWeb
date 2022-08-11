@@ -32,10 +32,10 @@ body {
 }
 .mapouter{
     width: 40%;
-    height:auto;
 }
 .gmap_canvas, .gmap_canvas iframe{
     width: 100%;
+    height: inherit
 }
 .location-description p, .location-description h2, .location-description a{
     width: 75%;
