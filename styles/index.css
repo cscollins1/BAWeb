@@ -17,14 +17,25 @@ body {
 .gmap_canvas {
     display: inline-block;
 }
-.location div {
-    width: 40%;
+.Location{
+    width: 100%;
+    height: fit-content;
     display: inline-block;
+}
+.Location div{
+    margin: 10px;
 }
 .location-description {
     width: 40%;
-    height: auto;
+    height: fit-content;
     display: inline-block;
+}
+.mapouter{
+    width: 40%;
+    height:auto;
+}
+.gmap_canvas, .gmap_canvas iframe{
+    width: 100%;
 }
 .location-description p, .location-description h2, .location-description a{
     width: 75%;
